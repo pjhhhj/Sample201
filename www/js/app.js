@@ -27,7 +27,7 @@ define(['angularAMD', 'angular-route', 'uiRouter'], function (angularAMD) {
         .state("default", angularAMD.route({
           url: "/{id}",
             templateUrl: function($stateParams){
-            return $stateParams.id + '.view.html';
+              return $stateParams.id + '.view.html';
           },
           resolve: {
             loadController: ['$q', '$stateParams',
@@ -51,7 +51,7 @@ define(['angularAMD', 'angular-route', 'uiRouter'], function (angularAMD) {
         }));
 
       $urlRouterProvider
-        .otherwise("/Home");
+        .otherwise("/Login");
     }
   ]);
 
