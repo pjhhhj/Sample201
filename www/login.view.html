@@ -1,0 +1,35 @@
+<ion-view name="login-view" hide-nav-bar="true">
+    <ion-content>
+
+        <div class='screen'>
+
+            <img class='logo' src='img/Hubio_logo.png' />
+
+            <div class='login cf'>
+
+                <p class='large'>Welcome</p>
+
+                <input type='text' placeholder='Username or Email' autofocus ng-model="data.username"/>
+
+                <input type='password' placeholder='Password' ng-model="data.password"/>
+
+                <a class='small flo-l' href=''>Did you forget?</a>
+
+                <div class='flo-r cf'>
+                    <input class='flo-l' type='checkbox' id='remember-me' />
+                    <label class='small flo-l' for='remember-me'>Remember me</label>
+                </div>
+                <div class='signup-link flo-l clr-l'>
+                    <p class='small'>New to DriveKit?</p>
+                    <a class='medium' href=''>Sign Up</a>
+                </div>
+
+                <button class='flo-r' ng-click="qauth()"> Login </button>
+                <!--                <button class="button button-block button-positive" ng-click="" id="login_button"><img src="img/fb-icon.ico" height="15px">  Login with Facebook</button>      -->
+            </div>
+
+        </div>
+
+
+    </ion-content>
+</ion-view>

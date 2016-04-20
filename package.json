@@ -18,9 +18,11 @@
   },
   "homepage": "https://github.com/pjhhhj/Sample201#readme",
   "dependencies": {
-    "requirejs": "^2.2.0"
+    "requirejs": "^2.2.0",
+    "moment": "^2.10.0"
   },
   "devDependencies": {
-    "requirejs": "^2.2.0"
+    "requirejs": "^2.2.0",
+    "moment": "^2.10.0"
   }
 }
